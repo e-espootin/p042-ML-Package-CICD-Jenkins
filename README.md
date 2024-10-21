@@ -2,6 +2,11 @@
 
 ## dev & learn
 - [x] setup env
+- [x] push ML module to Repo
+- [x] setup PAT
+- [x] setup Jenkins polling
+- [ ] setup Jenkins pipeline
+
 ...
 
 # setup env
