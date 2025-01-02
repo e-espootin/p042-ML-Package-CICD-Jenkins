@@ -1,419 +1,191 @@
-PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
-892,3,"Kelly, Mr. James",male,34.5,0,0,330911,7.8292,,Q
-893,3,"Wilkes, Mrs. James (Ellen Needs)",female,47,1,0,363272,7,,S
-894,2,"Myles, Mr. Thomas Francis",male,62,0,0,240276,9.6875,,Q
-895,3,"Wirz, Mr. Albert",male,27,0,0,315154,8.6625,,S
-896,3,"Hirvonen, Mrs. Alexander (Helga E Lindqvist)",female,22,1,1,3101298,12.2875,,S
-897,3,"Svensson, Mr. Johan Cervin",male,14,0,0,7538,9.225,,S
-898,3,"Connolly, Miss. Kate",female,30,0,0,330972,7.6292,,Q
-899,2,"Caldwell, Mr. Albert Francis",male,26,1,1,248738,29,,S
-900,3,"Abrahim, Mrs. Joseph (Sophie Halaut Easu)",female,18,0,0,2657,7.2292,,C
-901,3,"Davies, Mr. John Samuel",male,21,2,0,A/4 48871,24.15,,S
-902,3,"Ilieff, Mr. Ylio",male,,0,0,349220,7.8958,,S
-903,1,"Jones, Mr. Charles Cresson",male,46,0,0,694,26,,S
-904,1,"Snyder, Mrs. John Pillsbury (Nelle Stevenson)",female,23,1,0,21228,82.2667,B45,S
-905,2,"Howard, Mr. Benjamin",male,63,1,0,24065,26,,S
-906,1,"Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)",female,47,1,0,W.E.P. 5734,61.175,E31,S
-907,2,"del Carlo, Mrs. Sebastiano (Argenia Genovesi)",female,24,1,0,SC/PARIS 2167,27.7208,,C
-908,2,"Keane, Mr. Daniel",male,35,0,0,233734,12.35,,Q
-909,3,"Assaf, Mr. Gerios",male,21,0,0,2692,7.225,,C
-910,3,"Ilmakangas, Miss. Ida Livija",female,27,1,0,STON/O2. 3101270,7.925,,S
-911,3,"Assaf Khalil, Mrs. Mariana (Miriam"")""",female,45,0,0,2696,7.225,,C
-912,1,"Rothschild, Mr. Martin",male,55,1,0,PC 17603,59.4,,C
-913,3,"Olsen, Master. Artur Karl",male,9,0,1,C 17368,3.1708,,S
-914,1,"Flegenheim, Mrs. Alfred (Antoinette)",female,,0,0,PC 17598,31.6833,,S
-915,1,"Williams, Mr. Richard Norris II",male,21,0,1,PC 17597,61.3792,,C
-916,1,"Ryerson, Mrs. Arthur Larned (Emily Maria Borie)",female,48,1,3,PC 17608,262.375,B57 B59 B63 B66,C
-917,3,"Robins, Mr. Alexander A",male,50,1,0,A/5. 3337,14.5,,S
-918,1,"Ostby, Miss. Helene Ragnhild",female,22,0,1,113509,61.9792,B36,C
-919,3,"Daher, Mr. Shedid",male,22.5,0,0,2698,7.225,,C
-920,1,"Brady, Mr. John Bertram",male,41,0,0,113054,30.5,A21,S
-921,3,"Samaan, Mr. Elias",male,,2,0,2662,21.6792,,C
-922,2,"Louch, Mr. Charles Alexander",male,50,1,0,SC/AH 3085,26,,S
-923,2,"Jefferys, Mr. Clifford Thomas",male,24,2,0,C.A. 31029,31.5,,S
-924,3,"Dean, Mrs. Bertram (Eva Georgetta Light)",female,33,1,2,C.A. 2315,20.575,,S
-925,3,"Johnston, Mrs. Andrew G (Elizabeth Lily"" Watson)""",female,,1,2,W./C. 6607,23.45,,S
-926,1,"Mock, Mr. Philipp Edmund",male,30,1,0,13236,57.75,C78,C
-927,3,"Katavelas, Mr. Vassilios (Catavelas Vassilios"")""",male,18.5,0,0,2682,7.2292,,C
-928,3,"Roth, Miss. Sarah A",female,,0,0,342712,8.05,,S
-929,3,"Cacic, Miss. Manda",female,21,0,0,315087,8.6625,,S
-930,3,"Sap, Mr. Julius",male,25,0,0,345768,9.5,,S
-931,3,"Hee, Mr. Ling",male,,0,0,1601,56.4958,,S
-932,3,"Karun, Mr. Franz",male,39,0,1,349256,13.4167,,C
-933,1,"Franklin, Mr. Thomas Parham",male,,0,0,113778,26.55,D34,S
-934,3,"Goldsmith, Mr. Nathan",male,41,0,0,SOTON/O.Q. 3101263,7.85,,S
-935,2,"Corbett, Mrs. Walter H (Irene Colvin)",female,30,0,0,237249,13,,S
-936,1,"Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)",female,45,1,0,11753,52.5542,D19,S
-937,3,"Peltomaki, Mr. Nikolai Johannes",male,25,0,0,STON/O 2. 3101291,7.925,,S
-938,1,"Chevre, Mr. Paul Romaine",male,45,0,0,PC 17594,29.7,A9,C
-939,3,"Shaughnessy, Mr. Patrick",male,,0,0,370374,7.75,,Q
-940,1,"Bucknell, Mrs. William Robert (Emma Eliza Ward)",female,60,0,0,11813,76.2917,D15,C
-941,3,"Coutts, Mrs. William (Winnie Minnie"" Treanor)""",female,36,0,2,C.A. 37671,15.9,,S
-942,1,"Smith, Mr. Lucien Philip",male,24,1,0,13695,60,C31,S
-943,2,"Pulbaum, Mr. Franz",male,27,0,0,SC/PARIS 2168,15.0333,,C
-944,2,"Hocking, Miss. Ellen Nellie""""",female,20,2,1,29105,23,,S
-945,1,"Fortune, Miss. Ethel Flora",female,28,3,2,19950,263,C23 C25 C27,S
-946,2,"Mangiavacchi, Mr. Serafino Emilio",male,,0,0,SC/A.3 2861,15.5792,,C
-947,3,"Rice, Master. Albert",male,10,4,1,382652,29.125,,Q
-948,3,"Cor, Mr. Bartol",male,35,0,0,349230,7.8958,,S
-949,3,"Abelseth, Mr. Olaus Jorgensen",male,25,0,0,348122,7.65,F G63,S
-950,3,"Davison, Mr. Thomas Henry",male,,1,0,386525,16.1,,S
-951,1,"Chaudanson, Miss. Victorine",female,36,0,0,PC 17608,262.375,B61,C
-952,3,"Dika, Mr. Mirko",male,17,0,0,349232,7.8958,,S
-953,2,"McCrae, Mr. Arthur Gordon",male,32,0,0,237216,13.5,,S
-954,3,"Bjorklund, Mr. Ernst Herbert",male,18,0,0,347090,7.75,,S
-955,3,"Bradley, Miss. Bridget Delia",female,22,0,0,334914,7.725,,Q
-956,1,"Ryerson, Master. John Borie",male,13,2,2,PC 17608,262.375,B57 B59 B63 B66,C
-957,2,"Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller)",female,,0,0,F.C.C. 13534,21,,S
-958,3,"Burns, Miss. Mary Delia",female,18,0,0,330963,7.8792,,Q
-959,1,"Moore, Mr. Clarence Bloomfield",male,47,0,0,113796,42.4,,S
-960,1,"Tucker, Mr. Gilbert Milligan Jr",male,31,0,0,2543,28.5375,C53,C
-961,1,"Fortune, Mrs. Mark (Mary McDougald)",female,60,1,4,19950,263,C23 C25 C27,S
-962,3,"Mulvihill, Miss. Bertha E",female,24,0,0,382653,7.75,,Q
-963,3,"Minkoff, Mr. Lazar",male,21,0,0,349211,7.8958,,S
-964,3,"Nieminen, Miss. Manta Josefina",female,29,0,0,3101297,7.925,,S
-965,1,"Ovies y Rodriguez, Mr. Servando",male,28.5,0,0,PC 17562,27.7208,D43,C
-966,1,"Geiger, Miss. Amalie",female,35,0,0,113503,211.5,C130,C
-967,1,"Keeping, Mr. Edwin",male,32.5,0,0,113503,211.5,C132,C
-968,3,"Miles, Mr. Frank",male,,0,0,359306,8.05,,S
-969,1,"Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)",female,55,2,0,11770,25.7,C101,S
-970,2,"Aldworth, Mr. Charles Augustus",male,30,0,0,248744,13,,S
-971,3,"Doyle, Miss. Elizabeth",female,24,0,0,368702,7.75,,Q
-972,3,"Boulos, Master. Akar",male,6,1,1,2678,15.2458,,C
-973,1,"Straus, Mr. Isidor",male,67,1,0,PC 17483,221.7792,C55 C57,S
-974,1,"Case, Mr. Howard Brown",male,49,0,0,19924,26,,S
-975,3,"Demetri, Mr. Marinko",male,,0,0,349238,7.8958,,S
-976,2,"Lamb, Mr. John Joseph",male,,0,0,240261,10.7083,,Q
-977,3,"Khalil, Mr. Betros",male,,1,0,2660,14.4542,,C
-978,3,"Barry, Miss. Julia",female,27,0,0,330844,7.8792,,Q
-979,3,"Badman, Miss. Emily Louisa",female,18,0,0,A/4 31416,8.05,,S
-980,3,"O'Donoghue, Ms. Bridget",female,,0,0,364856,7.75,,Q
-981,2,"Wells, Master. Ralph Lester",male,2,1,1,29103,23,,S
-982,3,"Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)",female,22,1,0,347072,13.9,,S
-983,3,"Pedersen, Mr. Olaf",male,,0,0,345498,7.775,,S
-984,1,"Davidson, Mrs. Thornton (Orian Hays)",female,27,1,2,F.C. 12750,52,B71,S
-985,3,"Guest, Mr. Robert",male,,0,0,376563,8.05,,S
-986,1,"Birnbaum, Mr. Jakob",male,25,0,0,13905,26,,C
-987,3,"Tenglin, Mr. Gunnar Isidor",male,25,0,0,350033,7.7958,,S
-988,1,"Cavendish, Mrs. Tyrell William (Julia Florence Siegel)",female,76,1,0,19877,78.85,C46,S
-989,3,"Makinen, Mr. Kalle Edvard",male,29,0,0,STON/O 2. 3101268,7.925,,S
-990,3,"Braf, Miss. Elin Ester Maria",female,20,0,0,347471,7.8542,,S
-991,3,"Nancarrow, Mr. William Henry",male,33,0,0,A./5. 3338,8.05,,S
-992,1,"Stengel, Mrs. Charles Emil Henry (Annie May Morris)",female,43,1,0,11778,55.4417,C116,C
-993,2,"Weisz, Mr. Leopold",male,27,1,0,228414,26,,S
-994,3,"Foley, Mr. William",male,,0,0,365235,7.75,,Q
-995,3,"Johansson Palmquist, Mr. Oskar Leander",male,26,0,0,347070,7.775,,S
-996,3,"Thomas, Mrs. Alexander (Thamine Thelma"")""",female,16,1,1,2625,8.5167,,C
-997,3,"Holthen, Mr. Johan Martin",male,28,0,0,C 4001,22.525,,S
-998,3,"Buckley, Mr. Daniel",male,21,0,0,330920,7.8208,,Q
-999,3,"Ryan, Mr. Edward",male,,0,0,383162,7.75,,Q
-1000,3,"Willer, Mr. Aaron (Abi Weller"")""",male,,0,0,3410,8.7125,,S
-1001,2,"Swane, Mr. George",male,18.5,0,0,248734,13,F,S
-1002,2,"Stanton, Mr. Samuel Ward",male,41,0,0,237734,15.0458,,C
-1003,3,"Shine, Miss. Ellen Natalia",female,,0,0,330968,7.7792,,Q
-1004,1,"Evans, Miss. Edith Corse",female,36,0,0,PC 17531,31.6792,A29,C
-1005,3,"Buckley, Miss. Katherine",female,18.5,0,0,329944,7.2833,,Q
-1006,1,"Straus, Mrs. Isidor (Rosalie Ida Blun)",female,63,1,0,PC 17483,221.7792,C55 C57,S
-1007,3,"Chronopoulos, Mr. Demetrios",male,18,1,0,2680,14.4542,,C
-1008,3,"Thomas, Mr. John",male,,0,0,2681,6.4375,,C
-1009,3,"Sandstrom, Miss. Beatrice Irene",female,1,1,1,PP 9549,16.7,G6,S
-1010,1,"Beattie, Mr. Thomson",male,36,0,0,13050,75.2417,C6,C
-1011,2,"Chapman, Mrs. John Henry (Sara Elizabeth Lawry)",female,29,1,0,SC/AH 29037,26,,S
-1012,2,"Watt, Miss. Bertha J",female,12,0,0,C.A. 33595,15.75,,S
-1013,3,"Kiernan, Mr. John",male,,1,0,367227,7.75,,Q
-1014,1,"Schabert, Mrs. Paul (Emma Mock)",female,35,1,0,13236,57.75,C28,C
-1015,3,"Carver, Mr. Alfred John",male,28,0,0,392095,7.25,,S
-1016,3,"Kennedy, Mr. John",male,,0,0,368783,7.75,,Q
-1017,3,"Cribb, Miss. Laura Alice",female,17,0,1,371362,16.1,,S
-1018,3,"Brobeck, Mr. Karl Rudolf",male,22,0,0,350045,7.7958,,S
-1019,3,"McCoy, Miss. Alicia",female,,2,0,367226,23.25,,Q
-1020,2,"Bowenur, Mr. Solomon",male,42,0,0,211535,13,,S
-1021,3,"Petersen, Mr. Marius",male,24,0,0,342441,8.05,,S
-1022,3,"Spinner, Mr. Henry John",male,32,0,0,STON/OQ. 369943,8.05,,S
-1023,1,"Gracie, Col. Archibald IV",male,53,0,0,113780,28.5,C51,C
-1024,3,"Lefebre, Mrs. Frank (Frances)",female,,0,4,4133,25.4667,,S
-1025,3,"Thomas, Mr. Charles P",male,,1,0,2621,6.4375,,C
-1026,3,"Dintcheff, Mr. Valtcho",male,43,0,0,349226,7.8958,,S
-1027,3,"Carlsson, Mr. Carl Robert",male,24,0,0,350409,7.8542,,S
-1028,3,"Zakarian, Mr. Mapriededer",male,26.5,0,0,2656,7.225,,C
-1029,2,"Schmidt, Mr. August",male,26,0,0,248659,13,,S
-1030,3,"Drapkin, Miss. Jennie",female,23,0,0,SOTON/OQ 392083,8.05,,S
-1031,3,"Goodwin, Mr. Charles Frederick",male,40,1,6,CA 2144,46.9,,S
-1032,3,"Goodwin, Miss. Jessie Allis",female,10,5,2,CA 2144,46.9,,S
-1033,1,"Daniels, Miss. Sarah",female,33,0,0,113781,151.55,,S
-1034,1,"Ryerson, Mr. Arthur Larned",male,61,1,3,PC 17608,262.375,B57 B59 B63 B66,C
-1035,2,"Beauchamp, Mr. Henry James",male,28,0,0,244358,26,,S
-1036,1,"Lindeberg-Lind, Mr. Erik Gustaf (Mr Edward Lingrey"")""",male,42,0,0,17475,26.55,,S
-1037,3,"Vander Planke, Mr. Julius",male,31,3,0,345763,18,,S
-1038,1,"Hilliard, Mr. Herbert Henry",male,,0,0,17463,51.8625,E46,S
-1039,3,"Davies, Mr. Evan",male,22,0,0,SC/A4 23568,8.05,,S
-1040,1,"Crafton, Mr. John Bertram",male,,0,0,113791,26.55,,S
-1041,2,"Lahtinen, Rev. William",male,30,1,1,250651,26,,S
-1042,1,"Earnshaw, Mrs. Boulton (Olive Potter)",female,23,0,1,11767,83.1583,C54,C
-1043,3,"Matinoff, Mr. Nicola",male,,0,0,349255,7.8958,,C
-1044,3,"Storey, Mr. Thomas",male,60.5,0,0,3701,,,S
-1045,3,"Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)",female,36,0,2,350405,12.1833,,S
-1046,3,"Asplund, Master. Filip Oscar",male,13,4,2,347077,31.3875,,S
-1047,3,"Duquemin, Mr. Joseph",male,24,0,0,S.O./P.P. 752,7.55,,S
-1048,1,"Bird, Miss. Ellen",female,29,0,0,PC 17483,221.7792,C97,S
-1049,3,"Lundin, Miss. Olga Elida",female,23,0,0,347469,7.8542,,S
-1050,1,"Borebank, Mr. John James",male,42,0,0,110489,26.55,D22,S
-1051,3,"Peacock, Mrs. Benjamin (Edith Nile)",female,26,0,2,SOTON/O.Q. 3101315,13.775,,S
-1052,3,"Smyth, Miss. Julia",female,,0,0,335432,7.7333,,Q
-1053,3,"Touma, Master. Georges Youssef",male,7,1,1,2650,15.2458,,C
-1054,2,"Wright, Miss. Marion",female,26,0,0,220844,13.5,,S
-1055,3,"Pearce, Mr. Ernest",male,,0,0,343271,7,,S
-1056,2,"Peruschitz, Rev. Joseph Maria",male,41,0,0,237393,13,,S
-1057,3,"Kink-Heilmann, Mrs. Anton (Luise Heilmann)",female,26,1,1,315153,22.025,,S
-1058,1,"Brandeis, Mr. Emil",male,48,0,0,PC 17591,50.4958,B10,C
-1059,3,"Ford, Mr. Edward Watson",male,18,2,2,W./C. 6608,34.375,,S
-1060,1,"Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick)",female,,0,0,17770,27.7208,,C
-1061,3,"Hellstrom, Miss. Hilda Maria",female,22,0,0,7548,8.9625,,S
-1062,3,"Lithman, Mr. Simon",male,,0,0,S.O./P.P. 251,7.55,,S
-1063,3,"Zakarian, Mr. Ortin",male,27,0,0,2670,7.225,,C
-1064,3,"Dyker, Mr. Adolf Fredrik",male,23,1,0,347072,13.9,,S
-1065,3,"Torfa, Mr. Assad",male,,0,0,2673,7.2292,,C
-1066,3,"Asplund, Mr. Carl Oscar Vilhelm Gustafsson",male,40,1,5,347077,31.3875,,S
-1067,2,"Brown, Miss. Edith Eileen",female,15,0,2,29750,39,,S
-1068,2,"Sincock, Miss. Maude",female,20,0,0,C.A. 33112,36.75,,S
-1069,1,"Stengel, Mr. Charles Emil Henry",male,54,1,0,11778,55.4417,C116,C
-1070,2,"Becker, Mrs. Allen Oliver (Nellie E Baumgardner)",female,36,0,3,230136,39,F4,S
-1071,1,"Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)",female,64,0,2,PC 17756,83.1583,E45,C
-1072,2,"McCrie, Mr. James Matthew",male,30,0,0,233478,13,,S
-1073,1,"Compton, Mr. Alexander Taylor Jr",male,37,1,1,PC 17756,83.1583,E52,C
-1074,1,"Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)",female,18,1,0,113773,53.1,D30,S
-1075,3,"Lane, Mr. Patrick",male,,0,0,7935,7.75,,Q
-1076,1,"Douglas, Mrs. Frederick Charles (Mary Helene Baxter)",female,27,1,1,PC 17558,247.5208,B58 B60,C
-1077,2,"Maybery, Mr. Frank Hubert",male,40,0,0,239059,16,,S
-1078,2,"Phillips, Miss. Alice Frances Louisa",female,21,0,1,S.O./P.P. 2,21,,S
-1079,3,"Davies, Mr. Joseph",male,17,2,0,A/4 48873,8.05,,S
-1080,3,"Sage, Miss. Ada",female,,8,2,CA. 2343,69.55,,S
-1081,2,"Veal, Mr. James",male,40,0,0,28221,13,,S
-1082,2,"Angle, Mr. William A",male,34,1,0,226875,26,,S
-1083,1,"Salomon, Mr. Abraham L",male,,0,0,111163,26,,S
-1084,3,"van Billiard, Master. Walter John",male,11.5,1,1,A/5. 851,14.5,,S
-1085,2,"Lingane, Mr. John",male,61,0,0,235509,12.35,,Q
-1086,2,"Drew, Master. Marshall Brines",male,8,0,2,28220,32.5,,S
-1087,3,"Karlsson, Mr. Julius Konrad Eugen",male,33,0,0,347465,7.8542,,S
-1088,1,"Spedden, Master. Robert Douglas",male,6,0,2,16966,134.5,E34,C
-1089,3,"Nilsson, Miss. Berta Olivia",female,18,0,0,347066,7.775,,S
-1090,2,"Baimbrigge, Mr. Charles Robert",male,23,0,0,C.A. 31030,10.5,,S
-1091,3,"Rasmussen, Mrs. (Lena Jacobsen Solvang)",female,,0,0,65305,8.1125,,S
-1092,3,"Murphy, Miss. Nora",female,,0,0,36568,15.5,,Q
-1093,3,"Danbom, Master. Gilbert Sigvard Emanuel",male,0.33,0,2,347080,14.4,,S
-1094,1,"Astor, Col. John Jacob",male,47,1,0,PC 17757,227.525,C62 C64,C
-1095,2,"Quick, Miss. Winifred Vera",female,8,1,1,26360,26,,S
-1096,2,"Andrew, Mr. Frank Thomas",male,25,0,0,C.A. 34050,10.5,,S
-1097,1,"Omont, Mr. Alfred Fernand",male,,0,0,F.C. 12998,25.7417,,C
-1098,3,"McGowan, Miss. Katherine",female,35,0,0,9232,7.75,,Q
-1099,2,"Collett, Mr. Sidney C Stuart",male,24,0,0,28034,10.5,,S
-1100,1,"Rosenbaum, Miss. Edith Louise",female,33,0,0,PC 17613,27.7208,A11,C
-1101,3,"Delalic, Mr. Redjo",male,25,0,0,349250,7.8958,,S
-1102,3,"Andersen, Mr. Albert Karvin",male,32,0,0,C 4001,22.525,,S
-1103,3,"Finoli, Mr. Luigi",male,,0,0,SOTON/O.Q. 3101308,7.05,,S
-1104,2,"Deacon, Mr. Percy William",male,17,0,0,S.O.C. 14879,73.5,,S
-1105,2,"Howard, Mrs. Benjamin (Ellen Truelove Arman)",female,60,1,0,24065,26,,S
-1106,3,"Andersson, Miss. Ida Augusta Margareta",female,38,4,2,347091,7.775,,S
-1107,1,"Head, Mr. Christopher",male,42,0,0,113038,42.5,B11,S
-1108,3,"Mahon, Miss. Bridget Delia",female,,0,0,330924,7.8792,,Q
-1109,1,"Wick, Mr. George Dennick",male,57,1,1,36928,164.8667,,S
-1110,1,"Widener, Mrs. George Dunton (Eleanor Elkins)",female,50,1,1,113503,211.5,C80,C
-1111,3,"Thomson, Mr. Alexander Morrison",male,,0,0,32302,8.05,,S
-1112,2,"Duran y More, Miss. Florentina",female,30,1,0,SC/PARIS 2148,13.8583,,C
-1113,3,"Reynolds, Mr. Harold J",male,21,0,0,342684,8.05,,S
-1114,2,"Cook, Mrs. (Selena Rogers)",female,22,0,0,W./C. 14266,10.5,F33,S
-1115,3,"Karlsson, Mr. Einar Gervasius",male,21,0,0,350053,7.7958,,S
-1116,1,"Candee, Mrs. Edward (Helen Churchill Hungerford)",female,53,0,0,PC 17606,27.4458,,C
-1117,3,"Moubarek, Mrs. George (Omine Amenia"" Alexander)""",female,,0,2,2661,15.2458,,C
-1118,3,"Asplund, Mr. Johan Charles",male,23,0,0,350054,7.7958,,S
-1119,3,"McNeill, Miss. Bridget",female,,0,0,370368,7.75,,Q
-1120,3,"Everett, Mr. Thomas James",male,40.5,0,0,C.A. 6212,15.1,,S
-1121,2,"Hocking, Mr. Samuel James Metcalfe",male,36,0,0,242963,13,,S
-1122,2,"Sweet, Mr. George Frederick",male,14,0,0,220845,65,,S
-1123,1,"Willard, Miss. Constance",female,21,0,0,113795,26.55,,S
-1124,3,"Wiklund, Mr. Karl Johan",male,21,1,0,3101266,6.4958,,S
-1125,3,"Linehan, Mr. Michael",male,,0,0,330971,7.8792,,Q
-1126,1,"Cumings, Mr. John Bradley",male,39,1,0,PC 17599,71.2833,C85,C
-1127,3,"Vendel, Mr. Olof Edvin",male,20,0,0,350416,7.8542,,S
-1128,1,"Warren, Mr. Frank Manley",male,64,1,0,110813,75.25,D37,C
-1129,3,"Baccos, Mr. Raffull",male,20,0,0,2679,7.225,,C
-1130,2,"Hiltunen, Miss. Marta",female,18,1,1,250650,13,,S
-1131,1,"Douglas, Mrs. Walter Donald (Mahala Dutton)",female,48,1,0,PC 17761,106.425,C86,C
-1132,1,"Lindstrom, Mrs. Carl Johan (Sigrid Posse)",female,55,0,0,112377,27.7208,,C
-1133,2,"Christy, Mrs. (Alice Frances)",female,45,0,2,237789,30,,S
-1134,1,"Spedden, Mr. Frederic Oakley",male,45,1,1,16966,134.5,E34,C
-1135,3,"Hyman, Mr. Abraham",male,,0,0,3470,7.8875,,S
-1136,3,"Johnston, Master. William Arthur Willie""""",male,,1,2,W./C. 6607,23.45,,S
-1137,1,"Kenyon, Mr. Frederick R",male,41,1,0,17464,51.8625,D21,S
-1138,2,"Karnes, Mrs. J Frank (Claire Bennett)",female,22,0,0,F.C.C. 13534,21,,S
-1139,2,"Drew, Mr. James Vivian",male,42,1,1,28220,32.5,,S
-1140,2,"Hold, Mrs. Stephen (Annie Margaret Hill)",female,29,1,0,26707,26,,S
-1141,3,"Khalil, Mrs. Betros (Zahie Maria"" Elias)""",female,,1,0,2660,14.4542,,C
-1142,2,"West, Miss. Barbara J",female,0.92,1,2,C.A. 34651,27.75,,S
-1143,3,"Abrahamsson, Mr. Abraham August Johannes",male,20,0,0,SOTON/O2 3101284,7.925,,S
-1144,1,"Clark, Mr. Walter Miller",male,27,1,0,13508,136.7792,C89,C
-1145,3,"Salander, Mr. Karl Johan",male,24,0,0,7266,9.325,,S
-1146,3,"Wenzel, Mr. Linhart",male,32.5,0,0,345775,9.5,,S
-1147,3,"MacKay, Mr. George William",male,,0,0,C.A. 42795,7.55,,S
-1148,3,"Mahon, Mr. John",male,,0,0,AQ/4 3130,7.75,,Q
-1149,3,"Niklasson, Mr. Samuel",male,28,0,0,363611,8.05,,S
-1150,2,"Bentham, Miss. Lilian W",female,19,0,0,28404,13,,S
-1151,3,"Midtsjo, Mr. Karl Albert",male,21,0,0,345501,7.775,,S
-1152,3,"de Messemaeker, Mr. Guillaume Joseph",male,36.5,1,0,345572,17.4,,S
-1153,3,"Nilsson, Mr. August Ferdinand",male,21,0,0,350410,7.8542,,S
-1154,2,"Wells, Mrs. Arthur Henry (Addie"" Dart Trevaskis)""",female,29,0,2,29103,23,,S
-1155,3,"Klasen, Miss. Gertrud Emilia",female,1,1,1,350405,12.1833,,S
-1156,2,"Portaluppi, Mr. Emilio Ilario Giuseppe",male,30,0,0,C.A. 34644,12.7375,,C
-1157,3,"Lyntakoff, Mr. Stanko",male,,0,0,349235,7.8958,,S
-1158,1,"Chisholm, Mr. Roderick Robert Crispin",male,,0,0,112051,0,,S
-1159,3,"Warren, Mr. Charles William",male,,0,0,C.A. 49867,7.55,,S
-1160,3,"Howard, Miss. May Elizabeth",female,,0,0,A. 2. 39186,8.05,,S
-1161,3,"Pokrnic, Mr. Mate",male,17,0,0,315095,8.6625,,S
-1162,1,"McCaffry, Mr. Thomas Francis",male,46,0,0,13050,75.2417,C6,C
-1163,3,"Fox, Mr. Patrick",male,,0,0,368573,7.75,,Q
-1164,1,"Clark, Mrs. Walter Miller (Virginia McDowell)",female,26,1,0,13508,136.7792,C89,C
-1165,3,"Lennon, Miss. Mary",female,,1,0,370371,15.5,,Q
-1166,3,"Saade, Mr. Jean Nassr",male,,0,0,2676,7.225,,C
-1167,2,"Bryhl, Miss. Dagmar Jenny Ingeborg ",female,20,1,0,236853,26,,S
-1168,2,"Parker, Mr. Clifford Richard",male,28,0,0,SC 14888,10.5,,S
-1169,2,"Faunthorpe, Mr. Harry",male,40,1,0,2926,26,,S
-1170,2,"Ware, Mr. John James",male,30,1,0,CA 31352,21,,S
-1171,2,"Oxenham, Mr. Percy Thomas",male,22,0,0,W./C. 14260,10.5,,S
-1172,3,"Oreskovic, Miss. Jelka",female,23,0,0,315085,8.6625,,S
-1173,3,"Peacock, Master. Alfred Edward",male,0.75,1,1,SOTON/O.Q. 3101315,13.775,,S
-1174,3,"Fleming, Miss. Honora",female,,0,0,364859,7.75,,Q
-1175,3,"Touma, Miss. Maria Youssef",female,9,1,1,2650,15.2458,,C
-1176,3,"Rosblom, Miss. Salli Helena",female,2,1,1,370129,20.2125,,S
-1177,3,"Dennis, Mr. William",male,36,0,0,A/5 21175,7.25,,S
-1178,3,"Franklin, Mr. Charles (Charles Fardon)",male,,0,0,SOTON/O.Q. 3101314,7.25,,S
-1179,1,"Snyder, Mr. John Pillsbury",male,24,1,0,21228,82.2667,B45,S
-1180,3,"Mardirosian, Mr. Sarkis",male,,0,0,2655,7.2292,F E46,C
-1181,3,"Ford, Mr. Arthur",male,,0,0,A/5 1478,8.05,,S
-1182,1,"Rheims, Mr. George Alexander Lucien",male,,0,0,PC 17607,39.6,,S
-1183,3,"Daly, Miss. Margaret Marcella Maggie""""",female,30,0,0,382650,6.95,,Q
-1184,3,"Nasr, Mr. Mustafa",male,,0,0,2652,7.2292,,C
-1185,1,"Dodge, Dr. Washington",male,53,1,1,33638,81.8583,A34,S
-1186,3,"Wittevrongel, Mr. Camille",male,36,0,0,345771,9.5,,S
-1187,3,"Angheloff, Mr. Minko",male,26,0,0,349202,7.8958,,S
-1188,2,"Laroche, Miss. Louise",female,1,1,2,SC/Paris 2123,41.5792,,C
-1189,3,"Samaan, Mr. Hanna",male,,2,0,2662,21.6792,,C
-1190,1,"Loring, Mr. Joseph Holland",male,30,0,0,113801,45.5,,S
-1191,3,"Johansson, Mr. Nils",male,29,0,0,347467,7.8542,,S
-1192,3,"Olsson, Mr. Oscar Wilhelm",male,32,0,0,347079,7.775,,S
-1193,2,"Malachard, Mr. Noel",male,,0,0,237735,15.0458,D,C
-1194,2,"Phillips, Mr. Escott Robert",male,43,0,1,S.O./P.P. 2,21,,S
-1195,3,"Pokrnic, Mr. Tome",male,24,0,0,315092,8.6625,,S
-1196,3,"McCarthy, Miss. Catherine Katie""""",female,,0,0,383123,7.75,,Q
-1197,1,"Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)",female,64,1,1,112901,26.55,B26,S
-1198,1,"Allison, Mr. Hudson Joshua Creighton",male,30,1,2,113781,151.55,C22 C26,S
-1199,3,"Aks, Master. Philip Frank",male,0.83,0,1,392091,9.35,,S
-1200,1,"Hays, Mr. Charles Melville",male,55,1,1,12749,93.5,B69,S
-1201,3,"Hansen, Mrs. Claus Peter (Jennie L Howard)",female,45,1,0,350026,14.1083,,S
-1202,3,"Cacic, Mr. Jego Grga",male,18,0,0,315091,8.6625,,S
-1203,3,"Vartanian, Mr. David",male,22,0,0,2658,7.225,,C
-1204,3,"Sadowitz, Mr. Harry",male,,0,0,LP 1588,7.575,,S
-1205,3,"Carr, Miss. Jeannie",female,37,0,0,368364,7.75,,Q
-1206,1,"White, Mrs. John Stuart (Ella Holmes)",female,55,0,0,PC 17760,135.6333,C32,C
-1207,3,"Hagardon, Miss. Kate",female,17,0,0,AQ/3. 30631,7.7333,,Q
-1208,1,"Spencer, Mr. William Augustus",male,57,1,0,PC 17569,146.5208,B78,C
-1209,2,"Rogers, Mr. Reginald Harry",male,19,0,0,28004,10.5,,S
-1210,3,"Jonsson, Mr. Nils Hilding",male,27,0,0,350408,7.8542,,S
-1211,2,"Jefferys, Mr. Ernest Wilfred",male,22,2,0,C.A. 31029,31.5,,S
-1212,3,"Andersson, Mr. Johan Samuel",male,26,0,0,347075,7.775,,S
-1213,3,"Krekorian, Mr. Neshan",male,25,0,0,2654,7.2292,F E57,C
-1214,2,"Nesson, Mr. Israel",male,26,0,0,244368,13,F2,S
-1215,1,"Rowe, Mr. Alfred G",male,33,0,0,113790,26.55,,S
-1216,1,"Kreuchen, Miss. Emilie",female,39,0,0,24160,211.3375,,S
-1217,3,"Assam, Mr. Ali",male,23,0,0,SOTON/O.Q. 3101309,7.05,,S
-1218,2,"Becker, Miss. Ruth Elizabeth",female,12,2,1,230136,39,F4,S
-1219,1,"Rosenshine, Mr. George (Mr George Thorne"")""",male,46,0,0,PC 17585,79.2,,C
-1220,2,"Clarke, Mr. Charles Valentine",male,29,1,0,2003,26,,S
-1221,2,"Enander, Mr. Ingvar",male,21,0,0,236854,13,,S
-1222,2,"Davies, Mrs. John Morgan (Elizabeth Agnes Mary White) ",female,48,0,2,C.A. 33112,36.75,,S
-1223,1,"Dulles, Mr. William Crothers",male,39,0,0,PC 17580,29.7,A18,C
-1224,3,"Thomas, Mr. Tannous",male,,0,0,2684,7.225,,C
-1225,3,"Nakid, Mrs. Said (Waika Mary"" Mowad)""",female,19,1,1,2653,15.7417,,C
-1226,3,"Cor, Mr. Ivan",male,27,0,0,349229,7.8958,,S
-1227,1,"Maguire, Mr. John Edward",male,30,0,0,110469,26,C106,S
-1228,2,"de Brito, Mr. Jose Joaquim",male,32,0,0,244360,13,,S
-1229,3,"Elias, Mr. Joseph",male,39,0,2,2675,7.2292,,C
-1230,2,"Denbury, Mr. Herbert",male,25,0,0,C.A. 31029,31.5,,S
-1231,3,"Betros, Master. Seman",male,,0,0,2622,7.2292,,C
-1232,2,"Fillbrook, Mr. Joseph Charles",male,18,0,0,C.A. 15185,10.5,,S
-1233,3,"Lundstrom, Mr. Thure Edvin",male,32,0,0,350403,7.5792,,S
-1234,3,"Sage, Mr. John George",male,,1,9,CA. 2343,69.55,,S
-1235,1,"Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)",female,58,0,1,PC 17755,512.3292,B51 B53 B55,C
-1236,3,"van Billiard, Master. James William",male,,1,1,A/5. 851,14.5,,S
-1237,3,"Abelseth, Miss. Karen Marie",female,16,0,0,348125,7.65,,S
-1238,2,"Botsford, Mr. William Hull",male,26,0,0,237670,13,,S
-1239,3,"Whabee, Mrs. George Joseph (Shawneene Abi-Saab)",female,38,0,0,2688,7.2292,,C
-1240,2,"Giles, Mr. Ralph",male,24,0,0,248726,13.5,,S
-1241,2,"Walcroft, Miss. Nellie",female,31,0,0,F.C.C. 13528,21,,S
-1242,1,"Greenfield, Mrs. Leo David (Blanche Strouse)",female,45,0,1,PC 17759,63.3583,D10 D12,C
-1243,2,"Stokes, Mr. Philip Joseph",male,25,0,0,F.C.C. 13540,10.5,,S
-1244,2,"Dibden, Mr. William",male,18,0,0,S.O.C. 14879,73.5,,S
-1245,2,"Herman, Mr. Samuel",male,49,1,2,220845,65,,S
-1246,3,"Dean, Miss. Elizabeth Gladys Millvina""""",female,0.17,1,2,C.A. 2315,20.575,,S
-1247,1,"Julian, Mr. Henry Forbes",male,50,0,0,113044,26,E60,S
-1248,1,"Brown, Mrs. John Murray (Caroline Lane Lamson)",female,59,2,0,11769,51.4792,C101,S
-1249,3,"Lockyer, Mr. Edward",male,,0,0,1222,7.8792,,S
-1250,3,"O'Keefe, Mr. Patrick",male,,0,0,368402,7.75,,Q
-1251,3,"Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)",female,30,1,0,349910,15.55,,S
-1252,3,"Sage, Master. William Henry",male,14.5,8,2,CA. 2343,69.55,,S
-1253,2,"Mallet, Mrs. Albert (Antoinette Magnin)",female,24,1,1,S.C./PARIS 2079,37.0042,,C
-1254,2,"Ware, Mrs. John James (Florence Louise Long)",female,31,0,0,CA 31352,21,,S
-1255,3,"Strilic, Mr. Ivan",male,27,0,0,315083,8.6625,,S
-1256,1,"Harder, Mrs. George Achilles (Dorothy Annan)",female,25,1,0,11765,55.4417,E50,C
-1257,3,"Sage, Mrs. John (Annie Bullen)",female,,1,9,CA. 2343,69.55,,S
-1258,3,"Caram, Mr. Joseph",male,,1,0,2689,14.4583,,C
-1259,3,"Riihivouri, Miss. Susanna Juhantytar Sanni""""",female,22,0,0,3101295,39.6875,,S
-1260,1,"Gibson, Mrs. Leonard (Pauline C Boeson)",female,45,0,1,112378,59.4,,C
-1261,2,"Pallas y Castello, Mr. Emilio",male,29,0,0,SC/PARIS 2147,13.8583,,C
-1262,2,"Giles, Mr. Edgar",male,21,1,0,28133,11.5,,S
-1263,1,"Wilson, Miss. Helen Alice",female,31,0,0,16966,134.5,E39 E41,C
-1264,1,"Ismay, Mr. Joseph Bruce",male,49,0,0,112058,0,B52 B54 B56,S
-1265,2,"Harbeck, Mr. William H",male,44,0,0,248746,13,,S
-1266,1,"Dodge, Mrs. Washington (Ruth Vidaver)",female,54,1,1,33638,81.8583,A34,S
-1267,1,"Bowen, Miss. Grace Scott",female,45,0,0,PC 17608,262.375,,C
-1268,3,"Kink, Miss. Maria",female,22,2,0,315152,8.6625,,S
-1269,2,"Cotterill, Mr. Henry Harry""""",male,21,0,0,29107,11.5,,S
-1270,1,"Hipkins, Mr. William Edward",male,55,0,0,680,50,C39,S
-1271,3,"Asplund, Master. Carl Edgar",male,5,4,2,347077,31.3875,,S
-1272,3,"O'Connor, Mr. Patrick",male,,0,0,366713,7.75,,Q
-1273,3,"Foley, Mr. Joseph",male,26,0,0,330910,7.8792,,Q
-1274,3,"Risien, Mrs. Samuel (Emma)",female,,0,0,364498,14.5,,S
-1275,3,"McNamee, Mrs. Neal (Eileen O'Leary)",female,19,1,0,376566,16.1,,S
-1276,2,"Wheeler, Mr. Edwin Frederick""""",male,,0,0,SC/PARIS 2159,12.875,,S
-1277,2,"Herman, Miss. Kate",female,24,1,2,220845,65,,S
-1278,3,"Aronsson, Mr. Ernst Axel Algot",male,24,0,0,349911,7.775,,S
-1279,2,"Ashby, Mr. John",male,57,0,0,244346,13,,S
-1280,3,"Canavan, Mr. Patrick",male,21,0,0,364858,7.75,,Q
-1281,3,"Palsson, Master. Paul Folke",male,6,3,1,349909,21.075,,S
-1282,1,"Payne, Mr. Vivian Ponsonby",male,23,0,0,12749,93.5,B24,S
-1283,1,"Lines, Mrs. Ernest H (Elizabeth Lindsey James)",female,51,0,1,PC 17592,39.4,D28,S
-1284,3,"Abbott, Master. Eugene Joseph",male,13,0,2,C.A. 2673,20.25,,S
-1285,2,"Gilbert, Mr. William",male,47,0,0,C.A. 30769,10.5,,S
-1286,3,"Kink-Heilmann, Mr. Anton",male,29,3,1,315153,22.025,,S
-1287,1,"Smith, Mrs. Lucien Philip (Mary Eloise Hughes)",female,18,1,0,13695,60,C31,S
-1288,3,"Colbert, Mr. Patrick",male,24,0,0,371109,7.25,,Q
-1289,1,"Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)",female,48,1,1,13567,79.2,B41,C
-1290,3,"Larsson-Rondberg, Mr. Edvard A",male,22,0,0,347065,7.775,,S
-1291,3,"Conlon, Mr. Thomas Henry",male,31,0,0,21332,7.7333,,Q
-1292,1,"Bonnell, Miss. Caroline",female,30,0,0,36928,164.8667,C7,S
-1293,2,"Gale, Mr. Harry",male,38,1,0,28664,21,,S
-1294,1,"Gibson, Miss. Dorothy Winifred",female,22,0,1,112378,59.4,,C
-1295,1,"Carrau, Mr. Jose Pedro",male,17,0,0,113059,47.1,,S
-1296,1,"Frauenthal, Mr. Isaac Gerald",male,43,1,0,17765,27.7208,D40,C
-1297,2,"Nourney, Mr. Alfred (Baron von Drachstedt"")""",male,20,0,0,SC/PARIS 2166,13.8625,D38,C
-1298,2,"Ware, Mr. William Jeffery",male,23,1,0,28666,10.5,,S
-1299,1,"Widener, Mr. George Dunton",male,50,1,1,113503,211.5,C80,C
-1300,3,"Riordan, Miss. Johanna Hannah""""",female,,0,0,334915,7.7208,,Q
-1301,3,"Peacock, Miss. Treasteall",female,3,1,1,SOTON/O.Q. 3101315,13.775,,S
-1302,3,"Naughton, Miss. Hannah",female,,0,0,365237,7.75,,Q
-1303,1,"Minahan, Mrs. William Edward (Lillian E Thorpe)",female,37,1,0,19928,90,C78,Q
-1304,3,"Henriksson, Miss. Jenny Lovisa",female,28,0,0,347086,7.775,,S
-1305,3,"Spector, Mr. Woolf",male,,0,0,A.5. 3236,8.05,,S
-1306,1,"Oliva y Ocana, Dona. Fermina",female,39,0,0,PC 17758,108.9,C105,C
-1307,3,"Saether, Mr. Simon Sivertsen",male,38.5,0,0,SOTON/O.Q. 3101262,7.25,,S
-1308,3,"Ware, Mr. Frederick",male,,0,0,359309,8.05,,S
-1309,3,"Peter, Master. Michael J",male,,1,1,2668,22.3583,,C
+,transaction_id,t_datetime,amount,merchant_name,merchant_id,customer_name,customer_id,location_id,payment_method,terminal_id,card_type,card_brand,transaction_type,transaction_status,transaction_category,transaction_channel,merchant_bank,customer_bank,fraud
+0,100639,2025-01-01 21:15:07,781214.63,"Taylor, Howell and Jackson",120,Derrick Taylor,549,259,VISA 13 digit,361,Credit,Discover,Purchase,Failed,Retail,Online,Bank of America,Citi,0
+1,100982,2025-01-01 21:32:23,396656.68,Ramos-Dunlap,199,Christine Kennedy,559,244,JCB 15 digit,304,Credit,MasterCard,Purchase,Failed,Retail,POS,Wells Fargo,US Bank,0
+2,100189,2025-01-01 17:38:47,940462.02,"Brooks, Kim and Phillips",170,Jason Blackburn,544,217,JCB 15 digit,364,Debit,MasterCard,Purchase,Success,Electronics,POS,Chase,Citi,0
+3,100136,2025-01-01 17:36:07,807771.66,Aguilar-Evans,153,Mrs. Crystal Dixon,546,258,JCB 15 digit,340,Credit,MasterCard,Purchase,Failed,Grocery,Mobile,Citi,US Bank,0
+4,100089,2025-01-01 18:03:42,220264.7,"Nguyen, Reyes and Hutchinson",128,Mrs. Jenna Allison,580,203,Diners Club / Carte Blanche,358,Credit,Visa,Purchase,Failed,Retail,Online,US Bank,Chase,0
+5,100828,2025-01-01 21:24:37,209961.02,"Wolf, Hayes and Morton",111,Brent Long,556,208,Discover,355,Debit,Visa,Refund,Failed,Retail,POS,Wells Fargo,Capital One,0
+6,100215,2025-01-01 17:40:06,93227.22,Lloyd-Mcdonald,105,Andrew Collins,587,206,JCB 16 digit,372,Credit,Visa,Refund,Failed,Grocery,Online,Citi,Citi,0
+7,100146,2025-01-01 17:36:38,859243.22,"Fox, Jones and Chapman",124,Jeanne Nelson,588,213,VISA 13 digit,398,Credit,American Express,Refund,Success,Retail,POS,Chase,Citi,0
+8,100248,2025-01-01 17:41:46,478075.58,"Haney, Howard and Mcfarland",198,Joseph Collins,599,286,VISA 16 digit,330,Credit,Discover,Refund,Failed,Grocery,Online,Citi,Capital One,0
+9,100300,2025-01-01 18:51:32,474010.09,Vega-Little,193,Richard Bailey,593,244,Maestro,328,Credit,Discover,Refund,Success,Retail,Online,Citi,Wells Fargo,0
+10,100563,2025-01-01 21:11:17,875997.51,Stanton-Ray,142,John Aguirre,536,273,VISA 13 digit,336,Credit,American Express,Purchase,Failed,Electronics,POS,Capital One,Bank of America,0
+11,100073,2025-01-01 18:02:53,77318.36,Williams-Adams,100,Susan Anderson,585,284,JCB 16 digit,331,Debit,Visa,Purchase,Pending,Electronics,Mobile,Chase,Citi,0
+12,100362,2025-01-01 19:06:50,286902.16,Gomez-Lloyd,111,Jacob Wood,524,207,VISA 16 digit,303,Debit,MasterCard,Purchase,Success,Electronics,Online,Capital One,US Bank,0
+13,100080,2025-01-01 18:03:14,922104.38,Brown-Villarreal,116,Jacqueline Lawrence,587,296,Mastercard,329,Credit,Visa,Purchase,Success,Electronics,Mobile,Wells Fargo,Chase,0
+14,100382,2025-01-01 19:11:51,105747.03,"Barnes, Hicks and Velazquez",193,James Simpson,557,273,VISA 16 digit,306,Credit,MasterCard,Refund,Failed,Grocery,Mobile,Bank of America,Chase,0
+15,100342,2025-01-01 19:02:04,729811.67,Shaw-Cruz,109,Blake Anderson,555,289,Mastercard,367,Debit,American Express,Refund,Success,Retail,Online,US Bank,Citi,0
+16,100758,2025-01-01 21:21:05,450987.78,Murphy Inc,155,Ryan Walker,525,299,JCB 16 digit,312,Credit,Visa,Purchase,Failed,Grocery,Mobile,Capital One,Bank of America,0
+17,100120,2025-01-01 17:35:19,879937.49,Allen-Williams,184,David Smith,547,217,JCB 15 digit,349,Credit,American Express,Purchase,Pending,Electronics,Mobile,Bank of America,US Bank,0
+18,100667,2025-01-01 21:16:29,301663.48,Olsen-Gonzalez,108,Michael Brown,548,260,Mastercard,363,Credit,Visa,Refund,Failed,Electronics,Mobile,US Bank,Chase,0
+19,100545,2025-01-01 21:10:23,259171.62,"Morris, Cook and Flores",110,Stephanie Greene,551,263,VISA 16 digit,332,Debit,MasterCard,Refund,Success,Grocery,POS,US Bank,US Bank,0
+20,100649,2025-01-01 21:15:38,616713.83,"Hall, Kelly and Gutierrez",109,Emily Palmer,525,268,VISA 13 digit,304,Debit,Visa,Purchase,Success,Electronics,Online,Chase,Wells Fargo,0
+21,100693,2025-01-01 21:17:48,305479.24,"Jackson, Bernard and Williams",142,Julia Davis,501,256,American Express,380,Credit,American Express,Refund,Failed,Electronics,POS,Bank of America,Citi,0
+22,100924,2025-01-01 21:29:29,380660.5,"Sims, Jones and Nunez",185,Kirsten Johnson,559,226,American Express,308,Credit,Visa,Refund,Failed,Retail,Mobile,Capital One,Bank of America,0
+23,100170,2025-01-01 17:37:50,360265.27,Chavez-White,141,Amanda Thompson,534,268,Mastercard,346,Credit,American Express,Refund,Failed,Retail,POS,Wells Fargo,Wells Fargo,0
+24,100908,2025-01-01 21:28:40,121960.85,Pollard Ltd,137,Sandra Brewer,550,223,American Express,339,Debit,American Express,Refund,Success,Electronics,POS,Citi,US Bank,0
+25,100330,2025-01-01 18:59:04,127302.76,Walker PLC,104,Barbara Stone,560,234,JCB 15 digit,395,Credit,Discover,Purchase,Failed,Grocery,Mobile,Citi,Bank of America,0
+26,100577,2025-01-01 21:12:00,80686.77,Jones LLC,135,Adrian Hines,595,218,American Express,372,Debit,Visa,Refund,Failed,Electronics,Mobile,US Bank,Bank of America,0
+27,100641,2025-01-01 21:15:13,166685.23,Brown Group,157,Dana Carrillo,541,214,JCB 16 digit,367,Debit,American Express,Purchase,Failed,Electronics,Online,Capital One,Bank of America,0
+28,100817,2025-01-01 21:24:04,850531.87,Guzman-Anderson,117,Betty Robinson,552,209,JCB 16 digit,301,Debit,MasterCard,Refund,Success,Electronics,Online,Citi,Capital One,0
+29,100503,2025-01-01 21:08:16,570390.09,Ray Group,172,Brittany Allen,563,253,Mastercard,351,Debit,Visa,Refund,Failed,Grocery,Mobile,Capital One,Capital One,0
+30,100427,2025-01-01 21:04:26,450194.36,Terry Group,180,Larry Ortega,551,256,JCB 16 digit,307,Credit,Discover,Refund,Failed,Grocery,Online,US Bank,Wells Fargo,0
+31,100297,2025-01-01 18:50:47,977156.97,Farmer LLC,102,Ryan Hill,560,201,JCB 16 digit,395,Credit,Discover,Refund,Failed,Electronics,Online,Wells Fargo,Bank of America,0
+32,100113,2025-01-01 17:34:58,127744.63,"Rodriguez, Kramer and Black",127,Amanda Stevens,524,209,VISA 16 digit,360,Debit,American Express,Purchase,Pending,Electronics,Online,Chase,Citi,0
+33,100218,2025-01-01 17:40:15,478939.14,"Nichols, Andrews and Mccoy",187,Matthew Ramirez,578,225,JCB 16 digit,314,Debit,MasterCard,Purchase,Success,Grocery,POS,Wells Fargo,Wells Fargo,0
+34,100900,2025-01-01 21:28:15,228089.6,Jones Group,110,Jennifer Davis,503,253,JCB 16 digit,329,Credit,American Express,Purchase,Failed,Grocery,Mobile,Capital One,Wells Fargo,0
+35,100803,2025-01-01 21:23:22,508803.01,Shaw PLC,125,Adrian Lee,507,229,VISA 16 digit,360,Debit,American Express,Purchase,Failed,Grocery,Online,Citi,US Bank,0
+36,100976,2025-01-01 21:32:05,735700.0,"Stone, Gomez and Martinez",155,Brittany Rojas,544,257,Diners Club / Carte Blanche,338,Debit,Discover,Refund,Failed,Grocery,Online,US Bank,Bank of America,0
+37,100258,2025-01-01 17:42:16,625992.28,Davis-Yu,152,Robert Malone,510,252,Discover,399,Credit,Discover,Refund,Pending,Retail,POS,Chase,Citi,0
+38,100186,2025-01-01 17:38:38,349274.18,Gibson-Stone,172,Andrea Carey,548,292,Maestro,350,Debit,MasterCard,Refund,Failed,Retail,Online,Chase,Chase,0
+39,100666,2025-01-01 21:16:26,28872.63,Simmons Ltd,179,Manuel Shannon,505,211,VISA 16 digit,331,Credit,Discover,Purchase,Success,Retail,Online,Citi,Wells Fargo,0
+40,100876,2025-01-01 21:27:03,512936.65,"Stewart, Hammond and Friedman",144,Deanna Smith,599,290,JCB 15 digit,353,Credit,Discover,Refund,Success,Retail,Online,Chase,Chase,0
+41,100550,2025-01-01 21:10:38,681093.51,Lopez-Parrish,152,Sarah Martin,516,238,VISA 16 digit,387,Debit,MasterCard,Refund,Success,Grocery,Mobile,Chase,Chase,0
+42,100117,2025-01-01 17:35:10,447266.71,Thompson-Alvarez,169,Jacqueline Brock,533,251,VISA 16 digit,327,Credit,American Express,Refund,Failed,Retail,Mobile,Chase,Chase,0
+43,100377,2025-01-01 19:10:36,357385.48,"Scott, Bowen and Miller",156,Steven Mclaughlin,572,220,JCB 16 digit,347,Debit,MasterCard,Refund,Failed,Grocery,POS,Chase,Capital One,0
+44,100708,2025-01-01 21:18:33,734126.25,"Gonzalez, Perkins and Logan",132,Jackson Garrison,587,247,VISA 13 digit,316,Debit,Visa,Purchase,Failed,Grocery,POS,US Bank,Capital One,0
+45,100344,2025-01-01 19:02:34,793058.02,Adams-Blankenship,125,Bryce Scott,576,203,Diners Club / Carte Blanche,382,Debit,MasterCard,Refund,Success,Electronics,POS,Citi,Bank of America,0
+46,100499,2025-01-01 21:08:04,724491.99,Martinez-Mcdaniel,132,Sophia Warner,574,264,Discover,305,Debit,MasterCard,Refund,Success,Retail,Mobile,Wells Fargo,Wells Fargo,0
+47,100745,2025-01-01 21:20:26,200058.1,"Yu, Pratt and Miller",158,Kevin Williams,590,244,VISA 19 digit,317,Debit,MasterCard,Purchase,Success,Retail,POS,Citi,US Bank,0
+48,100109,2025-01-01 17:34:46,526311.65,Powell-Rose,143,Gavin Bradley,533,216,VISA 19 digit,330,Debit,American Express,Purchase,Success,Grocery,Online,Bank of America,US Bank,0
+49,100315,2025-01-01 18:55:18,407079.86,"Mendez, Greene and Howard",142,Michelle Moore,505,213,Mastercard,314,Credit,Visa,Purchase,Failed,Retail,POS,Citi,Wells Fargo,0
+50,100933,2025-01-01 21:29:56,285325.75,"Rodriguez, Bradford and Garza",138,Jeremy Terry,527,239,Discover,300,Debit,Visa,Refund,Failed,Retail,POS,US Bank,Citi,0
+51,100507,2025-01-01 21:08:28,311400.75,Wagner-Jackson,125,Crystal Diaz,504,214,JCB 16 digit,399,Debit,MasterCard,Purchase,Success,Grocery,POS,Citi,Chase,0
+52,100992,2025-01-01 21:32:53,587704.66,Cantu-Schwartz,155,Mary Patterson,505,290,VISA 13 digit,357,Debit,Discover,Purchase,Failed,Grocery,Mobile,Chase,Citi,0
+53,100259,2025-01-01 17:42:19,503149.11,Miranda-Brown,115,Jennifer Johnson,522,232,American Express,304,Debit,Discover,Refund,Failed,Electronics,Online,Chase,Chase,0
+54,100415,2025-01-01 21:03:50,824250.04,"Jones, Rice and Sanchez",184,Carrie Cooper,584,265,Maestro,343,Debit,Discover,Refund,Failed,Retail,Mobile,Capital One,Capital One,0
+55,100514,2025-01-01 21:08:49,320438.41,"Dunn, Carter and Bailey",156,Elizabeth Turner,561,228,VISA 13 digit,326,Debit,American Express,Refund,Failed,Electronics,Mobile,Chase,Capital One,0
+56,100842,2025-01-01 21:25:20,126221.65,Hodge-Harris,117,Stephanie Sanchez,586,229,VISA 16 digit,353,Credit,American Express,Purchase,Success,Electronics,Online,Citi,Bank of America,0
+57,100310,2025-01-01 18:54:02,977722.81,Sanchez-Villanueva,153,Rebecca Pacheco,572,285,Maestro,353,Debit,MasterCard,Refund,Success,Retail,Mobile,Chase,Wells Fargo,0
+58,100438,2025-01-01 21:04:59,464399.89,Garza LLC,122,Ian Nolan,553,254,VISA 16 digit,341,Credit,Discover,Refund,Success,Grocery,POS,US Bank,Citi,0
+59,100413,2025-01-01 21:03:44,496782.54,Soto Inc,100,James Palmer,564,253,Mastercard,320,Debit,American Express,Refund,Success,Grocery,Mobile,Citi,US Bank,0
+60,100729,2025-01-01 21:19:37,880037.05,"Kelley, Fox and Sanchez",147,Jason Anderson,577,236,JCB 15 digit,336,Debit,American Express,Purchase,Failed,Retail,Mobile,Bank of America,Bank of America,0
+61,100833,2025-01-01 21:24:52,37833.61,Savage LLC,181,Carlos Martinez,538,227,VISA 16 digit,345,Credit,Visa,Refund,Success,Retail,POS,Citi,Wells Fargo,0
+62,100723,2025-01-01 21:19:19,800075.74,Mccullough and Sons,161,Kimberly Allen DDS,517,265,JCB 16 digit,321,Debit,MasterCard,Purchase,Failed,Retail,Mobile,US Bank,Capital One,0
+63,100827,2025-01-01 21:24:34,789063.09,Johnson-Lucero,112,Peter Gamble,593,285,VISA 19 digit,300,Credit,MasterCard,Refund,Success,Retail,POS,Chase,Bank of America,0
+64,100515,2025-01-01 21:08:52,107260.38,"White, Chen and Jennings",163,Timothy Montgomery,533,219,VISA 16 digit,338,Credit,MasterCard,Refund,Success,Grocery,POS,US Bank,Citi,0
+65,100619,2025-01-01 21:14:07,206766.5,Jones LLC,175,William Bell,597,285,Diners Club / Carte Blanche,399,Debit,Discover,Refund,Failed,Retail,POS,Citi,Chase,0
+66,100734,2025-01-01 21:19:53,550107.97,"Brown, Williams and Miller",192,Tyler Vargas,549,201,Maestro,325,Debit,MasterCard,Refund,Success,Electronics,Mobile,Capital One,US Bank,0
+67,100609,2025-01-01 21:13:37,962.36,"Mcguire, Evans and Becker",182,Tracy Martinez,502,205,JCB 16 digit,384,Debit,Discover,Refund,Success,Grocery,Online,US Bank,Chase,0
+68,100381,2025-01-01 19:11:36,510485.96,Silva-Dominguez,161,Joe Cook,553,251,VISA 16 digit,300,Credit,Visa,Refund,Failed,Grocery,POS,Bank of America,Bank of America,0
+69,100126,2025-01-01 17:35:37,220354.78,Long Ltd,191,Dennis Wood,501,224,Diners Club / Carte Blanche,356,Credit,Discover,Refund,Pending,Retail,Mobile,Citi,Wells Fargo,0
+70,100265,2025-01-01 17:42:37,310710.8,Tucker PLC,170,Jackie Moon,528,290,VISA 16 digit,300,Credit,Visa,Refund,Pending,Electronics,POS,Bank of America,Citi,0
+71,100866,2025-01-01 21:26:32,980052.8,"King, Douglas and Smith",111,Jill Jackson,585,243,VISA 16 digit,391,Credit,Discover,Refund,Failed,Grocery,POS,Chase,US Bank,0
+72,100812,2025-01-01 21:23:49,428427.1,"Macdonald, Vargas and Jenkins",136,Ashley Gillespie,560,246,JCB 16 digit,342,Debit,Visa,Refund,Success,Electronics,POS,Wells Fargo,Capital One,0
+73,100703,2025-01-01 21:18:18,585850.83,Mendoza-Francis,147,Kristin Wells,544,200,VISA 13 digit,331,Debit,MasterCard,Refund,Failed,Grocery,Online,Bank of America,Chase,0
+74,100309,2025-01-01 18:53:47,666148.22,Lewis-Johnston,130,Leon Ortega,566,268,VISA 13 digit,394,Credit,MasterCard,Purchase,Success,Electronics,Online,Wells Fargo,Wells Fargo,0
+75,100325,2025-01-01 18:57:48,75752.1,Lewis-West,137,Heidi Martin,511,215,VISA 16 digit,335,Credit,American Express,Purchase,Success,Retail,Mobile,Chase,Bank of America,0
+76,100138,2025-01-01 17:36:13,450981.89,Wells LLC,170,Emily Roberts,511,236,VISA 19 digit,377,Debit,Discover,Refund,Failed,Grocery,Mobile,Wells Fargo,Bank of America,0
+77,100489,2025-01-01 21:07:34,449612.66,Sawyer-Sharp,183,Jennifer May,534,298,Mastercard,340,Debit,Discover,Refund,Failed,Retail,Mobile,Chase,US Bank,0
+78,100568,2025-01-01 21:11:32,778777.87,"Christian, Miller and Stokes",131,Alexander Kennedy,580,210,VISA 16 digit,372,Debit,Discover,Purchase,Success,Electronics,Mobile,Capital One,Bank of America,0
+79,100528,2025-01-01 21:09:31,518695.61,"White, Jones and Tran",139,William Williams,525,287,JCB 16 digit,307,Credit,Discover,Refund,Failed,Electronics,Online,Bank of America,Bank of America,0
+80,100694,2025-01-01 21:17:51,558311.15,Sanchez and Sons,154,Jessica Herrera,543,264,JCB 16 digit,390,Debit,Discover,Refund,Success,Electronics,Online,Citi,Chase,0
+81,100569,2025-01-01 21:11:35,646568.2,Austin Inc,125,Kristopher Brooks,509,204,Maestro,344,Debit,MasterCard,Refund,Success,Retail,Online,Capital One,Wells Fargo,0
+82,100444,2025-01-01 21:05:17,773067.99,"Rodriguez, Little and Walsh",166,Craig Gilbert,582,211,VISA 19 digit,375,Debit,Visa,Purchase,Success,Retail,POS,US Bank,Capital One,0
+83,100383,2025-01-01 19:12:06,288429.46,"Castillo, Castillo and Ball",128,Dennis Miller,595,287,JCB 15 digit,386,Credit,MasterCard,Refund,Success,Electronics,POS,Citi,Chase,0
+84,100348,2025-01-01 19:03:34,627140.02,"Williams, Murray and Burke",165,Michael Flores,515,211,VISA 16 digit,391,Credit,Discover,Purchase,Success,Retail,Online,Citi,Citi,0
+85,100157,2025-01-01 17:37:11,441673.77,"Wallace, Davis and Stanton",107,Kenneth Holmes,561,276,Diners Club / Carte Blanche,327,Debit,American Express,Refund,Failed,Retail,Online,Bank of America,Wells Fargo,0
+86,100854,2025-01-01 21:25:56,639292.23,Alvarez Ltd,165,Michael Jones,563,221,JCB 15 digit,313,Debit,Visa,Refund,Success,Grocery,Mobile,Bank of America,US Bank,0
+87,100268,2025-01-01 17:42:46,448988.58,Edwards Group,121,Angie Russell,566,243,VISA 16 digit,363,Debit,MasterCard,Refund,Success,Retail,Mobile,US Bank,Wells Fargo,0
+88,100591,2025-01-01 21:12:42,978920.86,"Taylor, Nelson and Smith",137,Russell Palmer,537,237,Discover,309,Credit,MasterCard,Purchase,Success,Retail,POS,Bank of America,Bank of America,0
+89,100531,2025-01-01 21:09:41,893307.41,"Velez, Jefferson and Mcconnell",108,Courtney Gonzalez,528,291,JCB 16 digit,387,Debit,American Express,Purchase,Success,Retail,Online,Wells Fargo,US Bank,0
+90,100360,2025-01-01 19:06:20,312984.88,"Davis, White and Garcia",141,Jill Davis,592,254,VISA 16 digit,381,Debit,American Express,Refund,Success,Electronics,Online,US Bank,Wells Fargo,0
+91,100958,2025-01-01 21:31:10,435689.95,"Russo, Dixon and Williams",156,Paul Mathews,545,239,VISA 16 digit,371,Debit,American Express,Refund,Success,Grocery,Online,Bank of America,Capital One,0
+92,100122,2025-01-01 17:35:25,612821.44,"Perkins, Hopkins and Cruz",194,Jose Rodriguez,541,249,JCB 16 digit,318,Debit,MasterCard,Purchase,Failed,Retail,Online,Capital One,US Bank,0
+93,100604,2025-01-01 21:13:21,567242.07,Williams Ltd,172,Steven Navarro,555,276,VISA 13 digit,307,Credit,Visa,Refund,Success,Retail,Online,Wells Fargo,US Bank,0
+94,100094,2025-01-01 18:03:57,561694.02,Aguilar PLC,110,Roy Barnett,543,246,JCB 15 digit,335,Credit,Discover,Purchase,Failed,Electronics,Mobile,Capital One,Capital One,0
+95,100655,2025-01-01 21:15:53,596079.57,Marquez-Carter,129,Margaret Stone,525,233,VISA 13 digit,334,Credit,Visa,Purchase,Failed,Grocery,POS,Chase,US Bank,0
+96,100622,2025-01-01 21:14:16,423600.71,"Hurley, Cohen and Smith",190,David Romero,505,219,JCB 15 digit,348,Credit,Discover,Refund,Success,Grocery,POS,Citi,Citi,0
+97,100644,2025-01-01 21:15:22,724688.82,Elliott Group,147,Victor Noble,511,281,VISA 16 digit,357,Credit,American Express,Purchase,Failed,Retail,Mobile,Capital One,Citi,0
+98,100996,2025-01-01 21:33:05,577907.79,"Robbins, Johnson and Meyer",103,Mr. Sean Hart,592,214,Diners Club / Carte Blanche,391,Credit,Discover,Purchase,Failed,Retail,POS,Capital One,Citi,0
+99,100352,2025-01-01 19:04:20,9519062.01,Cummings Ltd,155,Kimberly Calhoun,582,902,VISA 16 digit,367,Debit,MasterCard,Refund,Pending,Retail,Mobile,Bank of America,Bank of America,1
+100,100483,2025-01-01 21:07:15,771.87,Blake LLC,112,Joseph Perry,542,270,JCB 16 digit,314,Credit,MasterCard,Purchase,Failed,Retail,Online,US Bank,Capital One,0
+101,100885,2025-01-01 21:27:30,51555.99,Wood-Kramer,130,William Black,559,265,Mastercard,321,Credit,Visa,Purchase,Failed,Electronics,Mobile,Capital One,Capital One,0
+102,100378,2025-01-01 19:10:51,913182.42,"Villarreal, Maxwell and Allen",157,Mr. Jason Jackson,591,231,VISA 19 digit,364,Debit,MasterCard,Refund,Success,Grocery,Online,Chase,Bank of America,0
+103,100346,2025-01-01 19:03:04,707059.73,Burke Group,176,Stacey Warner,505,299,VISA 19 digit,310,Credit,Visa,Purchase,Success,Grocery,POS,Capital One,Bank of America,0
+104,100364,2025-01-01 19:07:20,984166.09,"Morrison, Smith and Brown",183,Patrick Alexander,572,287,VISA 16 digit,301,Debit,American Express,Refund,Failed,Electronics,Mobile,Capital One,Citi,0
+105,100311,2025-01-01 18:54:17,993681.63,Cunningham-Gonzales,145,Michelle Rogers,590,242,JCB 16 digit,364,Debit,American Express,Refund,Failed,Electronics,Mobile,Bank of America,Bank of America,0
+106,100867,2025-01-01 21:26:36,167167.26,Fisher-Medina,136,Shawn Hampton,509,259,Diners Club / Carte Blanche,379,Credit,American Express,Purchase,Success,Retail,Mobile,Wells Fargo,Wells Fargo,0
+107,100626,2025-01-01 21:14:28,447470.64,"Cook, Hunt and Dougherty",139,Robert Lee,552,234,VISA 19 digit,392,Debit,Visa,Refund,Success,Retail,POS,Chase,Citi,0
+108,100838,2025-01-01 21:25:08,879971.94,Walker PLC,184,Danielle Thomas,521,258,VISA 19 digit,303,Debit,Discover,Purchase,Failed,Electronics,Online,Chase,Bank of America,0
+109,100473,2025-01-01 21:06:45,3810.54,Rodriguez PLC,136,Michael Nguyen,584,274,Discover,393,Debit,Discover,Refund,Success,Grocery,Online,US Bank,Bank of America,0
+110,100946,2025-01-01 21:30:37,762497.99,Coleman Group,198,Vicki Brown,546,253,American Express,328,Debit,Discover,Refund,Failed,Electronics,Mobile,Chase,Chase,0
+111,100376,2025-01-01 19:10:21,601232.69,Middleton PLC,124,Christina Taylor,597,272,Maestro,369,Credit,Visa,Refund,Success,Electronics,Mobile,Bank of America,Chase,0
+112,100939,2025-01-01 21:30:14,387377.26,Walker-Stewart,147,Dawn Farley,513,291,VISA 13 digit,371,Debit,Discover,Refund,Success,Retail,POS,Wells Fargo,Citi,0
+113,100357,2025-01-01 19:05:35,1234.25,Jacobs Ltd,190,Alicia Acosta,515,264,JCB 16 digit,328,Credit,Discover,Refund,Success,Retail,POS,Citi,Citi,0
+114,100834,2025-01-01 21:24:55,39647.27,Robinson Ltd,155,Debra Rice,594,274,JCB 15 digit,327,Debit,Visa,Refund,Failed,Electronics,Mobile,Citi,Citi,0
+115,100110,2025-01-01 17:34:49,239170.3,Silva-Newton,176,Kimberly Smith,514,230,VISA 13 digit,315,Credit,American Express,Refund,Pending,Retail,Online,Bank of America,Capital One,0
+116,100208,2025-01-01 17:39:45,101894.78,Gonzalez PLC,102,Jamie Henry,566,288,JCB 16 digit,353,Debit,Visa,Purchase,Pending,Grocery,Mobile,Capital One,Wells Fargo,0
+117,100543,2025-01-01 21:10:17,629351.05,"Wilcox, Johnson and Ramos",174,Diane Lyons,563,280,Maestro,350,Credit,MasterCard,Refund,Failed,Grocery,Mobile,Bank of America,Bank of America,0
+118,100744,2025-01-01 21:20:23,576157.61,Aguirre LLC,126,Jimmy Cowan,583,266,VISA 16 digit,379,Debit,Visa,Purchase,Success,Electronics,Mobile,Capital One,Wells Fargo,0
+119,100392,2025-01-01 21:02:40,595458.4,Freeman and Sons,102,Michele Robles,584,218,VISA 13 digit,309,Debit,Discover,Purchase,Failed,Electronics,Mobile,Capital One,US Bank,0
+120,100224,2025-01-01 17:40:33,829824.77,Kline Ltd,183,Brendan Adams,519,211,VISA 19 digit,369,Credit,MasterCard,Refund,Pending,Grocery,Mobile,Wells Fargo,Citi,0
+121,100665,2025-01-01 21:16:23,342550.92,Smith-Martin,173,Jennifer Clark,540,254,VISA 19 digit,332,Debit,American Express,Purchase,Failed,Electronics,POS,Wells Fargo,Capital One,0
+122,100116,2025-01-01 17:35:07,72684.56,"Carey, Schmidt and Stafford",172,Kevin Smith,552,247,JCB 15 digit,333,Credit,Discover,Purchase,Success,Retail,POS,Bank of America,Citi,0
+123,100532,2025-01-01 21:09:44,713147.01,Petty-Chavez,104,Jasmine Cunningham,591,293,JCB 15 digit,367,Credit,MasterCard,Refund,Success,Grocery,Online,Wells Fargo,US Bank,0
+124,100281,2025-01-01 18:32:25,473498.44,Joseph LLC,106,Anna Rich,530,260,VISA 19 digit,360,Debit,Discover,Refund,Success,Electronics,POS,Bank of America,US Bank,0
+125,100620,2025-01-01 21:14:10,379702.65,Johnson Inc,139,Pamela Farrell,539,295,VISA 16 digit,354,Credit,Discover,Purchase,Success,Electronics,POS,Chase,Chase,0
+126,100656,2025-01-01 21:15:56,620921.33,Buckley-Freeman,157,Matthew Rhodes,523,269,VISA 19 digit,341,Debit,Discover,Refund,Failed,Grocery,Online,US Bank,US Bank,0
+127,100421,2025-01-01 21:04:08,1029.64,"Rodriguez, Bailey and Shannon",126,Sue Montoya,592,223,VISA 16 digit,320,Debit,Discover,Refund,Failed,Grocery,Online,US Bank,Bank of America,0
+128,100316,2025-01-01 18:55:33,651464.35,Small-Fuller,111,Taylor Morales,568,272,Mastercard,371,Debit,MasterCard,Purchase,Success,Electronics,POS,Bank of America,Chase,0
+129,100263,2025-01-01 17:42:31,199848.2,Benson Group,163,Lisa Malone,516,240,JCB 15 digit,321,Debit,MasterCard,Refund,Pending,Retail,Online,Citi,US Bank,0
+130,100361,2025-01-01 19:06:35,402130.12,Mccullough Inc,190,Eric Phillips,501,285,JCB 15 digit,342,Credit,Visa,Refund,Failed,Retail,Mobile,Citi,Bank of America,0
+131,100336,2025-01-01 19:00:34,809443.37,"Anderson, Martin and Pacheco",193,Melanie Lopez,533,251,American Express,309,Debit,Visa,Purchase,Success,Electronics,Online,Chase,Capital One,0
+132,100160,2025-01-01 17:37:20,449745.02,"Moore, Oconnor and Brown",101,Becky Fowler,570,286,JCB 16 digit,368,Debit,Visa,Refund,Failed,Grocery,Mobile,Capital One,Bank of America,0
+133,100557,2025-01-01 21:10:59,101820.66,Wilson-Huerta,129,Adam Maxwell,527,265,VISA 13 digit,328,Credit,Visa,Refund,Success,Grocery,POS,US Bank,Citi,0
+134,100480,2025-01-01 21:07:06,530419.84,Kelley-Curtis,143,Dustin Lewis,594,215,Maestro,389,Credit,Visa,Purchase,Success,Retail,Online,US Bank,US Bank,0
+135,100782,2025-01-01 21:22:18,232737.02,"Smith, Robbins and Johnson",152,Kevin Pollard,513,247,VISA 16 digit,393,Debit,Discover,Purchase,Success,Electronics,Mobile,US Bank,US Bank,0
+136,100533,2025-01-01 21:09:47,330587.22,Huynh Group,147,Cindy Klein,531,272,VISA 16 digit,358,Credit,Discover,Refund,Success,Grocery,Mobile,Citi,Bank of America,0
+137,100492,2025-01-01 21:07:43,388366.3,"Colon, Cole and Butler",128,Lisa Rogers,577,297,Discover,377,Debit,MasterCard,Refund,Failed,Grocery,Mobile,Bank of America,Capital One,0
+138,100830,2025-01-01 21:24:43,144166.53,"Baxter, Moyer and Ortiz",195,Hannah Crawford,584,234,Discover,399,Credit,MasterCard,Purchase,Success,Electronics,POS,Citi,Bank of America,0
+139,100787,2025-01-01 21:22:33,122878.98,"Jones, Mcgee and Oliver",113,Deborah Vance,549,229,Maestro,319,Debit,Visa,Refund,Success,Retail,Mobile,Bank of America,Citi,0
+140,100455,2025-01-01 21:05:50,551077.3,Love-Hansen,158,Mike Roberts,522,223,VISA 13 digit,391,Credit,American Express,Refund,Success,Retail,POS,Citi,US Bank,0
+141,100869,2025-01-01 21:26:42,724129.26,"Wiggins, White and Odonnell",181,Garrett Woods,575,250,JCB 15 digit,385,Credit,American Express,Purchase,Success,Electronics,POS,Capital One,Citi,0
+142,100384,2025-01-01 19:12:21,564765.27,"Baker, Matthews and Acosta",155,James Morrison,583,221,JCB 16 digit,336,Debit,MasterCard,Refund,Success,Grocery,POS,Citi,Citi,0
+143,100187,2025-01-01 17:38:41,404706.55,White-Price,168,Michelle Schmidt,599,229,Diners Club / Carte Blanche,356,Credit,MasterCard,Purchase,Success,Electronics,Mobile,Citi,Chase,0
+144,100366,2025-01-01 19:07:50,242741.21,Liu Group,168,Jerome Hill,514,215,Discover,380,Debit,MasterCard,Refund,Failed,Retail,Mobile,Bank of America,US Bank,0
+145,100997,2025-01-01 21:33:08,218862.08,"Choi, Lopez and Johnson",100,Elizabeth Gibson,535,269,American Express,368,Debit,MasterCard,Refund,Success,Grocery,Mobile,Wells Fargo,US Bank,0
+146,100888,2025-01-01 21:27:39,761362.83,Johnson-Wise,106,William Rivera,538,224,American Express,367,Debit,Visa,Purchase,Success,Grocery,Mobile,Wells Fargo,Chase,0
+147,100786,2025-01-01 21:22:30,491353.94,Hays-Hunter,107,Keith Holmes,547,299,Maestro,329,Debit,American Express,Refund,Failed,Electronics,POS,US Bank,Bank of America,0
+148,100922,2025-01-01 21:29:22,53751.14,Stevenson-Berg,117,Justin Christian,551,245,Mastercard,360,Credit,Discover,Purchase,Failed,Electronics,Mobile,US Bank,Wells Fargo,0
+149,100575,2025-01-01 21:11:54,511525.31,Walker Ltd,150,Cathy Perez,555,223,VISA 19 digit,372,Credit,MasterCard,Refund,Failed,Retail,POS,Bank of America,Chase,0
+150,100916,2025-01-01 21:29:04,38905.74,"Tucker, Fitzgerald and Franklin",151,Denise Williams,505,237,American Express,338,Credit,Visa,Refund,Failed,Retail,Mobile,US Bank,Chase,0
+151,100304,2025-01-01 18:52:32,593790.2,Mullen-Roberts,160,Cynthia King,571,208,Diners Club / Carte Blanche,344,Credit,American Express,Refund,Failed,Electronics,Online,Bank of America,Bank of America,0
+152,100411,2025-01-01 21:03:38,326455.49,Garcia LLC,156,Brian Reese,591,208,Discover,335,Credit,Visa,Refund,Success,Retail,POS,Wells Fargo,Bank of America,0
+153,100359,2025-01-01 19:06:05,47451.77,Hansen-Hendrix,112,Dawn Tucker,544,275,JCB 16 digit,308,Debit,Visa,Purchase,Failed,Retail,POS,Bank of America,Citi,0
+154,100128,2025-01-01 17:35:43,842563.96,Townsend Group,166,Tamara Johnson,564,235,JCB 16 digit,366,Credit,MasterCard,Refund,Failed,Retail,Online,Citi,Capital One,0
+155,100796,2025-01-01 21:23:00,510185.06,"Johnson, Smith and Wallace",158,Carolyn Thomas,546,241,VISA 19 digit,376,Credit,American Express,Refund,Success,Retail,POS,Bank of America,Capital One,0
+156,100675,2025-01-01 21:16:53,776608.67,Lee and Sons,173,Martin Holder,559,240,JCB 16 digit,303,Credit,Discover,Refund,Failed,Retail,POS,Wells Fargo,Chase,0
+157,100260,2025-01-01 17:42:22,101249.06,"Anderson, Chambers and Johnson",177,Eric Harvey,537,249,VISA 16 digit,388,Debit,MasterCard,Refund,Pending,Retail,POS,Capital One,US Bank,0
+158,100497,2025-01-01 21:07:58,358515.24,Miller and Sons,108,Thomas Watkins,541,252,JCB 16 digit,393,Credit,MasterCard,Purchase,Success,Grocery,Online,Capital One,Wells Fargo,0
+159,100735,2025-01-01 21:19:56,770974.47,"Evans, Baker and Adams",148,Kelly Ochoa,566,256,American Express,349,Debit,Visa,Purchase,Failed,Electronics,Online,Citi,Capital One,0
+160,100581,2025-01-01 21:12:12,294753.85,Burns Inc,164,Juan Rodgers,536,296,Mastercard,315,Credit,American Express,Refund,Success,Grocery,POS,US Bank,Bank of America,0
+161,100863,2025-01-01 21:26:23,3662.32,"Rhodes, Haynes and Smith",150,Roberto Wall,530,240,Maestro,330,Credit,American Express,Refund,Failed,Grocery,Mobile,Chase,US Bank,0
+162,100115,2025-01-01 17:35:04,436483.02,Jones LLC,140,Michael Anderson,581,299,American Express,317,Credit,Visa,Refund,Success,Electronics,Online,Wells Fargo,Capital One,0
+163,100191,2025-01-01 17:38:54,182146.72,Hoffman Ltd,192,Monique Brewer,599,206,VISA 16 digit,308,Debit,American Express,Purchase,Pending,Electronics,POS,US Bank,Bank of America,0
+164,100242,2025-01-01 17:41:28,468344.46,Harris LLC,102,Jessica Cummings,527,212,Maestro,308,Credit,American Express,Refund,Pending,Electronics,Online,Chase,Chase,0
+165,100431,2025-01-01 21:04:38,547442.08,Lin PLC,125,Andrew Miller,505,217,JCB 16 digit,383,Debit,American Express,Purchase,Success,Electronics,POS,Wells Fargo,Citi,0
+166,100285,2025-01-01 18:35:34,417722.83,Colon-Howell,156,David Hill,593,272,VISA 16 digit,334,Credit,American Express,Refund,Success,Electronics,POS,Wells Fargo,Citi,0
+167,100680,2025-01-01 21:17:08,576379.6,David PLC,179,Rachel Montoya,582,284,JCB 15 digit,352,Credit,MasterCard,Purchase,Failed,Retail,Online,Capital One,Chase,0
+168,100960,2025-01-01 21:31:16,538919.65,Lynn LLC,112,Ashley Marquez,559,202,VISA 16 digit,327,Credit,Discover,Purchase,Failed,Retail,Online,Chase,Capital One,0
+169,100402,2025-01-01 21:03:10,97118.0,Le-Washington,168,Mary Owen,567,252,VISA 16 digit,324,Debit,Visa,Refund,Failed,Grocery,Mobile,Capital One,Wells Fargo,0
+170,100975,2025-01-01 21:32:02,256273.41,"Wilson, Kim and Avila",162,Rachel Oconnor,506,296,American Express,319,Credit,American Express,Refund,Success,Retail,POS,Capital One,Capital One,0
+171,100864,2025-01-01 21:26:26,466871.6,"Smith, Richards and Lopez",125,Heather Johnson,512,223,VISA 13 digit,389,Credit,American Express,Refund,Success,Grocery,Mobile,Citi,Wells Fargo,0
+172,100902,2025-01-01 21:28:22,641319.67,Shaw LLC,128,Michelle Knapp,535,241,American Express,341,Debit,MasterCard,Purchase,Success,Grocery,Online,Citi,Chase,0
+173,100099,2025-01-01 18:04:12,912632.22,Good Ltd,126,Alexis Daniels,540,296,Discover,354,Debit,Visa,Purchase,Success,Retail,Mobile,US Bank,Chase,0
+174,100739,2025-01-01 21:20:08,68844.81,"Morrow, Phillips and Johnson",134,Jessica Rodriguez,569,220,VISA 13 digit,308,Debit,MasterCard,Purchase,Failed,Grocery,Mobile,Capital One,Bank of America,0
+175,100249,2025-01-01 17:41:49,850168.58,Mitchell Group,151,Tammy Anderson,525,223,VISA 16 digit,391,Debit,MasterCard,Purchase,Failed,Electronics,POS,Chase,Wells Fargo,0
+176,100652,2025-01-01 21:15:44,9013627.44,Solomon LLC,154,Dennis Rivera,557,906,VISA 13 digit,336,Debit,American Express,Purchase,Failed,Electronics,POS,Capital One,Bank of America,1
+177,100904,2025-01-01 21:28:28,222415.82,Williams-Ryan,158,Katie Wilson,525,275,JCB 16 digit,306,Debit,Visa,Purchase,Success,Retail,Online,US Bank,Capital One,0
+178,100870,2025-01-01 21:26:45,886231.51,"Martin, Brown and Garza",184,Jessica Wells,598,272,Diners Club / Carte Blanche,371,Debit,Discover,Refund,Failed,Grocery,Mobile,Chase,US Bank,0
+179,100356,2025-01-01 19:05:20,581552.92,Herrera-Campos,119,Jeanette Smith,556,272,VISA 19 digit,347,Debit,Discover,Purchase,Success,Grocery,POS,Capital One,Capital One,0
+180,100991,2025-01-01 21:32:50,972689.98,Hawkins-Mathis,125,Elizabeth Green,520,210,Diners Club / Carte Blanche,329,Credit,Visa,Purchase,Success,Retail,POS,Chase,Wells Fargo,0
+181,100478,2025-01-01 21:07:00,309160.84,Walton-Jackson,199,Rhonda Anderson,537,214,VISA 16 digit,383,Debit,Visa,Purchase,Success,Electronics,POS,Bank of America,Chase,0
+182,100595,2025-01-01 21:12:54,434795.45,Brown-Carrillo,160,Kelly Peters,516,271,American Express,383,Credit,MasterCard,Purchase,Success,Electronics,Mobile,Wells Fargo,Bank of America,0
+183,100083,2025-01-01 18:03:23,86264.36,Bridges-Rodriguez,191,Chelsea Parrish,542,239,VISA 13 digit,315,Credit,MasterCard,Refund,Failed,Retail,POS,US Bank,Bank of America,0
+184,100081,2025-01-01 18:03:17,239483.19,"Sanders, Rogers and Bernard",173,Daniel Fisher,569,249,Maestro,346,Debit,MasterCard,Refund,Failed,Electronics,Mobile,Capital One,US Bank,0
+185,100757,2025-01-01 21:21:02,488286.31,Holt-Simmons,153,Todd Turner,509,290,VISA 13 digit,330,Debit,American Express,Refund,Success,Retail,POS,Bank of America,Bank of America,0
+186,100785,2025-01-01 21:22:27,71818.59,Mullins-Stephens,167,Michael Walker,563,253,American Express,300,Debit,MasterCard,Purchase,Success,Grocery,Online,Bank of America,Citi,0
+187,100954,2025-01-01 21:30:58,960355.04,Fuentes Inc,191,Jennifer Hernandez,524,295,Maestro,304,Credit,MasterCard,Purchase,Success,Electronics,Online,Capital One,US Bank,0
+188,100593,2025-01-01 21:12:48,212127.6,"Nolan, Reynolds and Lara",197,Olivia Black,574,212,American Express,300,Credit,Discover,Refund,Success,Grocery,Mobile,Bank of America,Wells Fargo,0
+189,100936,2025-01-01 21:30:05,487900.65,Collins and Sons,167,Hannah Cox,530,272,VISA 13 digit,373,Credit,Visa,Purchase,Failed,Retail,Online,US Bank,Bank of America,0

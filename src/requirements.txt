@@ -11,3 +11,5 @@ fastapi==0.115.2
 pydantic==2.9.2
 uvicorn==0.32.0
 gunicorn==23.0.0
+clickhouse-driver==0.2.9
+imbalanced-learn==0.13.0
